@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+  max-height: 100vh;
+}
+
+.white {
+  background-color: white;
+}
+
+.black {
+  background-color: black;
+}
+
+.animated_eclipse {
+  width: 100vh;
+  height: 100vh;
+  border-radius: 50%;
+  position: absolute;
+  opacity: 1;
+  left: 50%;
+  top: 150%;
+  transform: translate(-50%, -50%);
+  display: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.animated_introtext {
+  z-index: 2;
+  text-align: center;
+  margin-top: 40%;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  height: 64em;
+  transform: translate(-50%, -50%);
+  display: none;
+  opacity: 1;
+}
+.white_text {
+  color: white;
+}
+.black_text {
+  color: black;
+}
+
+.header {
+  z-index: 3;
+}
+.header__menubutton {
+  background-color: black;
+  border: 1px, white, solid;
+  color: white;
+  height: 48px;
+  width: 100px;
+  border-radius: 20px;
+}
