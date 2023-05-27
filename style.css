@@ -1,8 +1,8 @@
 body {
   margin: 0;
-  background-color: black;
-  overflow: hidden;
-  max-height: 100vh;
+  background-color: #070808;
+
+  min-height: 200vh;
 }
 
 .white {
@@ -10,7 +10,7 @@ body {
 }
 
 .black {
-  background-color: black;
+  background-color: #070808;
 }
 
 .animated_eclipse {
@@ -43,14 +43,14 @@ body {
   color: white;
 }
 .black_text {
-  color: black;
+  color: #070808;
 }
 
 .header {
   z-index: 3;
 }
 .header__menubutton {
-  background-color: black;
+  background-color: #070808;
   border: 1px, white, solid;
   color: white;
   height: 48px;
