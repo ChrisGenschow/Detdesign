@@ -88,15 +88,16 @@ header {
   text-align: center;
   max-width: 80%;
   margin: auto;
-  margin-top: 20%;
+  margin-top: 6em;
   opacity: 0;
 }
 
 .animation_herotext {
-  font-family: "Silkscreen", cursive;
+  font-family: "Bebas Neue", sans-serif;
   font-size: 8rem;
   text-align: center;
   margin: auto;
+  margin-top: 6em;
 }
 
 .bounceball_container {
