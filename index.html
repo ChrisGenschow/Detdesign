@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DetDesign</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!--HTML content-->
     <header>
       <button class="header__menubutton">menu</button>
+      <div class="bounceball_container">
+        <div class="bounceball_animated"></div>
+      </div>
     </header>
 
     <div class="animated_eclipse white">
@@ -25,56 +36,15 @@
     <div class="animated_eclipse black">
       <h2 class="animated_introtext centered white_text">User Interfaces</h2>
     </div>
-    <div class="animated_eclipse black"></div>
-    <h1 class="herotext white_text"></h1>
-    <section class="bounceball_background">
-      <img class="fullbackground" src="./img/fullbackground.png" />
-      <!--<img
-        class="cigarette_image bounceball_background__image"
-        src="./img/Cigarette.png"
-      />
 
-      <img
-        class="guitar_image bounceball_background__image"
-        src="./img/Guitar.png"
-      />
-      <img class="key_image bounceball_background__image" src="./img/key.png" />
-      <img
-        class="padlock_image bounceball_background__image"
-        src="./img/Padlock.png"
-      />
-      <img
-        class="wheel_image bounceball_background__image"
-        src="./img/Wheel.png"
-      />
-      <img
-        class="birdtree_image bounceball_background__image"
-        src="./img/Birdtree.png"
-      />
-      <img
-        class="shoe_image bounceball_background__image"
-        src="./img/Shoe.png"
-      />
-      <img
-        class="heartcloud_image bounceball_background__image"
-        src="./img/Heartcloud.png"
-      />
-      <img
-        class="flower_image bounceball_background__image"
-        src="./img/Flower.png"
-      />
-      <img
-        class="vinyl_image bounceball_background__image"
-        src="./img/Vinyl.png"
-      />
-      <img
-        class="fish_image bounceball_background__image"
-        src="./img/Fish.png"
-      />
-      <img
-        class="basketball_image bounceball_background__image"
-        src="./img/Basketball.png"
-      />-->
+    <h2 class="herotext white_text">
+      GOOD UI/UX DESIGN MAKES IT EASIER FOR USERS TO ENGAGE WITH YOUR WEBSITE.
+    </h2>
+    <h2 class="animation_herotext white_text">
+      GREAT ANIMATION MAKES FOR A MORE MEMORABLE AND EXCITING USER EXPERINCE.
+    </h2>
+    <section class="bounceball_background">
+      <img class="fullbackground" src="./img/fullbackground.svg" />
     </section>
 
     <!--Scripts-->
@@ -84,6 +54,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/Draggable.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
+    <script src="./scripts/DrawSVGPlugin.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
