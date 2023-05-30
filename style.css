@@ -50,7 +50,7 @@ body {
 }
 
 header {
-  z-index: 3;
+  z-index: 5;
   background-color: #070808;
   position: fixed;
   height: 20%;
@@ -72,14 +72,30 @@ header {
 /*Images for scrolleffect after introanimation and landingpage.*/
 .bounceball_background {
   min-width: 100%;
-  max-width: 100vw;
-  overflow: hidden;
+  max-width: 100%;
+
   display: none;
+  justify-content: center;
+  position: relative;
 }
 
 .fullbackground {
   min-width: 100%;
   max-width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+}
+
+.animatedballpath {
+  max-width: 100%;
+  min-width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  z-index: 2;
 }
 
 .herotext {
@@ -110,6 +126,7 @@ header {
   left: 50%;
   top: 100%;
   transform: translate(-50%, -50%);
+  z-index: 3;
 }
 .bounceball_animated {
   width: 3em;
@@ -120,4 +137,81 @@ header {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  z-index: 4;
+}
+
+.clouds {
+  min-width: 100%;
+  height: 32em;
+  position: absolute;
+  margin-top: 8em;
+}
+
+.cloud {
+  transform: translate(-50%, -50%);
+  width: 60em;
+  position: absolute;
+}
+
+.cloud_upper {
+  left: 50%;
+  top: 70%;
+  z-index: 1;
+}
+.cloud_left {
+  left: 30%;
+  top: 90%;
+  z-index: 3;
+}
+.cloud_right {
+  left: 70%;
+  top: 90%;
+  z-index: 3;
+}
+
+.cloud_lower {
+  left: 50%;
+  top: 100%;
+  z-index: 4;
+}
+
+.parallax_text {
+  text-align: center;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  font-family: "Bebas Neue", sans-serif;
+  z-index: 2;
+  top: 50%;
+  font-size: 16rem;
+}
+
+.random_fill {
+  background-color: white;
+  height: 40em;
+  width: 100%;
+}
+
+.smileyfaces {
+  margin-top: 48em;
+}
+
+#face2,
+#face3 {
+  visibility: hidden;
+}
+
+svg {
+  display: block;
+}
+
+#head1,
+#head2,
+#lefteye1,
+#lefteye2,
+#righteye1,
+#righteye2,
+#mouth1,
+#mouth2 {
+  visibility: hidden;
 }

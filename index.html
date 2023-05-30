@@ -10,18 +10,11 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
-      rel="stylesheet"
-    />
   </head>
   <body>
     <!--HTML content-->
     <header>
       <button class="header__menubutton">menu</button>
-      <div class="bounceball_container">
-        <div class="bounceball_animated"></div>
-      </div>
     </header>
 
     <div class="animated_eclipse white">
@@ -41,11 +34,98 @@
       GOOD UI/UX DESIGN MAKES IT EASIER FOR USERS TO ENGAGE WITH YOUR WEBSITE.
     </h2>
     <h2 class="animation_herotext white_text">
-      GREAT ANIMATION MAKES FOR A MORE MEMORABLE AND EXCITING USER EXPERINCE.
+      GREAT ANIMATION MAKES FOR A MORE MEMORABLE AND EXCITING USER EXPERINCE. IT
+      HELPS BRINGING YOUR WEBSITE TO LIFE.
     </h2>
-    <section class="bounceball_background">
-      <img class="fullbackground" src="./img/fullbackground.svg" />
+    <section class="clouds parallax_example">
+      <img src="./img/cloud_upper.svg" class="cloud_upper cloud" />
+      <img src="./img/cloud_left.svg" class="cloud_left cloud" />
+      <img src="./img/cloud_right.svg" class="cloud_right cloud" />
+      <h2 class="parallax_text white_text">PARALLAX</h2>
+      <img src="./img/cloud_lower.svg" class="cloud_lower cloud" />
     </section>
+    <section class="smileyfaces morph_example">
+      <svg
+        version="1.1"
+        id="Layer_1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        x="0px"
+        y="0px"
+        viewBox="0 0 1920 1080"
+        style="enable-background: new 0 0 1920 1080"
+        xml:space="preserve"
+      >
+        <style type="text/css">
+          .st0 {
+            fill: #070808;
+            stroke: #ffffff;
+            stroke-miterlimit: 10;
+          }
+        </style>
+
+        <circle id="head" class="st0" cx="960" cy="540" r="315.5" />
+        <circle id="lefteye" class="st0" cx="1069.5" cy="540.5" r="55" />
+        <circle id="righteye" class="st0" cx="849.5" cy="540.5" r="55" />
+        <rect
+          id="mouth"
+          x="849.5"
+          y="664.5"
+          class="st0"
+          width="220"
+          height="52"
+        />
+        <circle id="head1" class="st0" cx="960" cy="540" r="315.5" />
+        <rect
+          id="lefteye1"
+          x="1017.5"
+          y="422.5"
+          class="st0"
+          width="120"
+          height="75"
+        />
+        <rect
+          id="righteye1"
+          x="779.5"
+          y="422.5"
+          class="st0"
+          width="120"
+          height="75"
+        />
+        <circle id="mouth2" class="st0" cx="959.5" cy="664.5" r="97" />
+        <circle id="head2" class="st0" cx="960" cy="540" r="315.5" />
+        <path
+          id="mouth1"
+          class="st0"
+          d="M959.5,758L959.5,758c-51.6,0-93.5-41.9-93.5-93.5V571h187v93.5C1053,716.1,1011.1,758,959.5,758z"
+        />
+        <path
+          id="righteye2"
+          class="st0"
+          d="M806,468.5L806,468.5c33.4,0,60.5,27.1,60.5,60.5v0.5h-121V529
+     C745.5,495.6,772.6,468.5,806,468.5z"
+        />
+        <path
+          id="lefteye2"
+          class="st0"
+          d="M1114,468.5L1114,468.5c33.4,0,60.5,27.1,60.5,60.5v0.5h-121V529
+     C1053.5,495.6,1080.6,468.5,1114,468.5z"
+        />
+      </svg>
+    </section>
+
+    <!-- <section class="bounceball_background">
+      <div class="bounceball_container">
+        <div class="bounceball_animated"></div>
+      </div>
+
+      <img class="fullbackground" src="./img/fullbackground.svg" />
+      <path
+        class="cls-1 animatedballpath"
+        d="M1165,1900.96997 C1165,1931.96997 1153.596,2728.07997 1154.001,2649.96697 1154.503,2553.22997 1472.978,2259.44097 1649.487,2346.39397 2004.8,2521.43097 2011.138,2986.80997 1997.968,2975.39197 1979.781,2959.62397 1623.888,2768.93097 1320.135,2866.71897 907.215,2999.65097 738.803,4153.19897 744.472,4128.64597 755.9188,4079.07197 991.186,3877.44597 1178.279,4058.94497 1402.7854,4276.74177 1657.12,4836.95297 1737.508,5023.52697 1746.5512,5044.51632 1561.162,4629.72397 1278.625,4912.90497 1019.629,5172.48672 560.751,6418.15797 576.433,6400.90097 627.01615,6345.23777 919.365,6407.90497 1085.943,6510.18397 1259.006,6616.43897 1386.029,6810.93397 1382.918,6806.87397 1098.426,6435.64917 465.568,7689.20397 469.141,7683.35797 581.53255,7499.46907 878.462,7404.76897 1045.689,7526.72797 1147.882,7601.25747 1346.629,8110.61097 1319.489,8067.73697 1279.646,8004.79577 1060.281,7699.29897 990.161,7976.97497 971.0144,8052.79637 701.073,9231.60697 731.163,9170.89697 761.53485,9109.61822 1092.702,8925.98797 1279.497,9070.33197 1439.3091,9193.82597 1560.552,9615.27397 1593.783,9770.03897 1596.0281,9780.49502 1370.69,9517.54097 1198.03,9669.36897 1070.8897,9781.16787 772.398,11161.98597 716.571,11428.03197 714.089,11439.85597 923.343,11235.24697 995.339,11237.45997 1103.334,11240.77797 1172.001,13670.94397 1172.001,13670.94397 "
+      />
+    </section>
+  -->
 
     <!--Scripts-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
@@ -55,6 +135,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/MotionPathPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/TextPlugin.min.js"></script>
     <script src="./scripts/DrawSVGPlugin.min.js"></script>
+    <script src="./scripts/MotionPathHelper.min.js"></script>
+    <script src="./scripts/ScrollTrigger.min.js"></script>
+    <script src="./scripts/MorphSVGPlugin.min.js"></script>
     <script src="app.js"></script>
   </body>
 </html>
