@@ -85,7 +85,7 @@ header {
   position: absolute;
   top: 0%;
   left: 0%;
-  z-index: 1;
+  z-index: 0;
 }
 
 .animatedballpath {
@@ -186,6 +186,15 @@ header {
   font-size: 16rem;
 }
 
+.morphing_text {
+  text-align: center;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 16rem;
+}
+
 .random_fill {
   background-color: white;
   height: 40em;
@@ -193,7 +202,7 @@ header {
 }
 
 .smileyfaces {
-  margin-top: 48em;
+  margin-top: 40%;
 }
 
 #face2,
@@ -205,13 +214,20 @@ svg {
   display: block;
 }
 
+
+#lefteye1,
 #head1,
 #head2,
-#lefteye1,
 #lefteye2,
 #righteye1,
 #righteye2,
 #mouth1,
 #mouth2 {
   visibility: hidden;
+  
+}
+
+.fading_eclipse {
+  border-radius: 50%;
+  border: solid 1px white;
 }

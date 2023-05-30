@@ -26,8 +26,8 @@ tl.to(".animated_eclipse", {
   .to(".white", { display: "none" })
   .to(".herotext", { opacity: 1 })
   .to("header", { display: "block", opacity: 1 })
-  .to(".animated_eclipse", { display: "none", opacity: 0, duration: 0.5 });
-//.to(".bounceball_background", { display: "block" });
+  .to(".animated_eclipse", { display: "none", opacity: 0, duration: 0.5 })
+  .to(".bounceball_background", { display: "block" });
 
 gsap.to(".animated_eclipse", { display: "block", opacity: 1 });
 
@@ -39,7 +39,7 @@ gsap.to(".animated_introtext", {
   stagger: 2.4,
 });
 
-/* 
+ 
 gsap.to(".bounceball_animated", {
   duration: 15,
   delay: 16,
@@ -47,7 +47,7 @@ gsap.to(".bounceball_animated", {
   align: ".animatedballpath",
   alignOrigin: [0.5, 0.5],
 });
-*/
+
 
 gsap.to(".cloud_upper", {
   y: -100,
