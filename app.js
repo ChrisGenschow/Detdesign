@@ -39,7 +39,6 @@ gsap.to(".animated_introtext", {
   stagger: 2.4,
 });
 
- 
 gsap.to(".bounceball_animated", {
   duration: 15,
   delay: 16,
@@ -47,7 +46,6 @@ gsap.to(".bounceball_animated", {
   align: ".animatedballpath",
   alignOrigin: [0.5, 0.5],
 });
-
 
 gsap.to(".cloud_upper", {
   y: -100,
@@ -112,45 +110,45 @@ MorphSVGPlugin.convertToPath("circle, rect, eclipse, line, polygon, polyline");
 tl_repeat
   .to("#righteye", {
     morphSVG: "#righteye1",
-    duration: 1,
+    duration: 0.5,
   })
   .to("#lefteye", {
     morphSVG: "#lefteye1",
-    duration: 1,
-    delay: 0.75,
+    duration: 0.5,
+    delay: 0.5,
   })
   .to("#mouth", {
     morphSVG: "#mouth1",
-    duration: 1,
-    delay: 0.75,
+    duration: 0.5,
+    delay: 0.5,
   })
   .to("#righteye", {
     morphSVG: "#righteye2",
-    delay: 0.75,
-    duration: 1,
+    delay: 0.5,
+    duration: 0.5,
   })
   .to("#lefteye", {
     morphSVG: "#lefteye2",
-    delay: 0.75,
-    duration: 1,
+    delay: 0.5,
+    duration: 0.5,
   })
   .to("#mouth", {
     morphSVG: "#mouth2",
-    duration: 1,
-    delay: 0.75,
+    duration: 0.5,
+    delay: 0.5,
   })
   .to("#righteye", {
     morphSVG: "#righteye",
-    delay: 0.75,
-    duration: 1,
+    delay: 0.5,
+    duration: 0.5,
   })
   .to("#lefteye", {
     morphSVG: "#lefteye",
-    delay: 0.75,
-    duration: 1,
+    delay: 0.5,
+    duration: 0.5,
   })
   .to("#mouth", {
     morphSVG: "#mouth",
-    duration: 1,
-    delay: 0.75,
+    duration: 0.5,
+    delay: 0.5,
   });

@@ -193,6 +193,7 @@ header {
   left: 50%;
   font-family: "Bebas Neue", sans-serif;
   font-size: 16rem;
+  margin-top: 0%;
 }
 
 .random_fill {
@@ -214,7 +215,6 @@ svg {
   display: block;
 }
 
-
 #lefteye1,
 #head1,
 #head2,
@@ -224,10 +224,32 @@ svg {
 #mouth1,
 #mouth2 {
   visibility: hidden;
-  
+}
+
+.fade_section {
+  height: 64em;
 }
 
 .fading_eclipse {
   border-radius: 50%;
   border: solid 1px white;
+}
+
+.small_eclipse_right {
+  height: 8em;
+  width: 8em;
+}
+.small_eclipse_left {
+  height: 8em;
+  width: 8em;
+}
+
+.medium_eclipse {
+  height: 16em;
+  width: 16em;
+}
+
+.large_eclipse {
+  height: 24em;
+  width: 24em;
 }
