@@ -233,6 +233,8 @@ svg {
 .fading_eclipse {
   border-radius: 50%;
   border: solid 1px white;
+  position: absolute;
+  transform: translate(-50%, -50%);
 }
 
 .small_eclipse_right {
