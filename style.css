@@ -66,9 +66,15 @@ header {
   background-color: #070808;
   border: 1px, white, solid;
   color: white;
-  height: 3em;
-  width: 100px;
-  border-radius: 20px;
+  height: 4em;
+  width: 4em;
+  position: relative;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 100%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
 }
 
 /*Images for scrolleffect after introanimation and landingpage.*/
@@ -79,7 +85,7 @@ header {
   text-align: center;
   max-width: 80%;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 3em;
   opacity: 0;
 }
 
@@ -206,7 +212,10 @@ svg {
 #righteye1,
 #righteye2,
 #mouth1,
-#mouth2 {
+#mouth2,
+#happyeyeleft,
+#happyeyeright,
+#happymouth {
   visibility: hidden;
 }
 
@@ -436,4 +445,34 @@ svg {
 .vertical_section {
   min-height: 100vh;
   /* Other styling as needed */
+}
+.contact_me_header {
+  text-align: center;
+  position: relative;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 12rem;
+  margin-top: 12%;
+}
+
+.contact_me_text {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  margin-top: 0;
+  margin-bottom: 2em;
+}
+
+.contact_me_email {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 8rem;
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+  margin-top: -2em;
+  margin-bottom: 2em;
+  opacity: 0;
 }

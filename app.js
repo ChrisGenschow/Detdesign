@@ -322,3 +322,12 @@ gsap.to(".vertical_section", {
     scrub: 1,
   },
 });
+
+gsap.to(".contact_me_email", {
+  opacity: 1,
+  duration: 0.5,
+  scrollTrigger: {
+    trigger: ".contact_me_email",
+    start: "top center",
+  },
+});
