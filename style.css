@@ -75,6 +75,7 @@ header {
   top: 100%;
   font-family: "Bebas Neue", sans-serif;
   font-size: 2rem;
+  text-decoration: none;
 }
 
 /*Images for scrolleffect after introanimation and landingpage.*/
