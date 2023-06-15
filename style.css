@@ -37,7 +37,7 @@ body {
   text-align: center;
   margin-top: 40%;
   position: absolute;
-  top: -10%;
+  top: -15%;
   left: 50%;
   height: 64em;
   transform: translate(-50%, -50%);
@@ -109,7 +109,8 @@ header {
   font-family: "Bebas Neue", sans-serif;
   font-size: 8rem;
   text-align: center;
-  margin: auto;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .bounceball_container {
@@ -151,23 +152,23 @@ header {
 
 .cloud_upper {
   left: 50%;
-  top: 60%;
+  top: 50%;
   z-index: 1;
 }
 .cloud_left {
   left: 30%;
-  top: 80%;
+  top: 55%;
   z-index: 3;
 }
 .cloud_right {
   left: 70%;
-  top: 80%;
+  top: 55%;
   z-index: 3;
 }
 
 .cloud_lower {
   left: 50%;
-  top: 90%;
+  top: 60%;
   z-index: 4;
 }
 
@@ -178,7 +179,7 @@ header {
   left: 50%;
   font-family: "Bebas Neue", sans-serif;
   z-index: 2;
-  top: 60%;
+  top: 40%;
   font-size: 16rem;
 }
 
@@ -193,7 +194,7 @@ header {
 }
 
 .smileyfaces {
-  margin-top: 64em;
+  margin-top: 50%;
   height: 100vh;
 }
 
@@ -476,4 +477,13 @@ svg {
   margin-top: -2em;
   margin-bottom: 2em;
   opacity: 0;
+}
+
+a:link,
+a:visited {
+  color: white;
+
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
 }

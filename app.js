@@ -16,13 +16,13 @@ MorphSVGPlugin.convertToPath(
   "circle, rect, eclipse, line, polygon, polyline, ellipse"
 );
 tl.to(".animated_eclipse", {
-  duration: 3,
+  duration: 2.5,
   display: "block",
   opacity: 1,
   top: -200,
   scale: 5,
-  stagger: 2.4,
-  delay: 1,
+  stagger: 2,
+  delay: 0.75,
 })
   .to(".animated_introtext", { display: "none", opacity: 0 })
   .to("body", { overflow: "visible" })
@@ -35,85 +35,85 @@ tl.to(".animated_eclipse", {
 gsap.to(".animated_eclipse", { display: "block", opacity: 1 });
 
 gsap.to(".animated_introtext", {
-  duration: 3,
+  duration: 2.5,
   display: "block",
   delay: 0.5,
   y: 340,
-  stagger: 2.4,
+  stagger: 2,
 });
 
 tl_repeat
   .to("#head_introanimation", {
     morphSVG: "#head2_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#leftpupil_introanimation", {
     morphSVG: "#leftcheek_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#rightpupil_introanimation", {
     morphSVG: "#rightcheek_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#mouth_introanimation", {
     morphSVG: "#mouth2_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#lefteye_introanimation", {
     morphSVG: "#middleeye_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#righteye_introanimation", {
     morphSVG: "#middlepupil_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#head_introanimation", {
     morphSVG: "#head3_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#leftpupil_introanimation", {
     morphSVG: "#lefteyebrow_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#rightpupil_introanimation", {
     morphSVG: "#righteyebrow_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#mouth_introanimation", {
     morphSVG: "#mouth3_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#righteye_introanimation", {
     morphSVG: "#righteye2_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#lefteye_introanimation", {
     morphSVG: "#lefteye2_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#head_introanimation", {
     morphSVG: "#head_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#leftpupil_introanimation", {
     morphSVG: "#leftpupil_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#rightpupil_introanimation", {
     morphSVG: "#rightpupil_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#mouth_introanimation", {
     morphSVG: "#mouth_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#lefteye_introanimation", {
     morphSVG: "#lefteye_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#righteye_introanimation", {
     morphSVG: "#righteye_introanimation",
-    duration: 0.5,
+    duration: 0.3,
   });
 
 gsap.to(".bounceball_animated", {
@@ -125,7 +125,7 @@ gsap.to(".bounceball_animated", {
 });
 
 gsap.to(".cloud_upper", {
-  y: -100,
+  y: -200,
   duration: 1.5,
   scrollTrigger: {
     trigger: ".cloud_upper",
@@ -135,8 +135,8 @@ gsap.to(".cloud_upper", {
   },
 });
 gsap.to(".cloud_left", {
-  y: -300,
-  x: -100,
+  y: -100,
+  x: -200,
   duration: 1.5,
   scrollTrigger: {
     trigger: ".cloud_upper",
@@ -146,8 +146,8 @@ gsap.to(".cloud_left", {
   },
 });
 gsap.to(".cloud_right", {
-  y: -300,
-  x: 100,
+  y: -100,
+  x: 200,
   duration: 1.5,
   scrollTrigger: {
     trigger: ".cloud_upper",
@@ -157,7 +157,7 @@ gsap.to(".cloud_right", {
   },
 });
 gsap.to(".cloud_lower", {
-  y: -100,
+  y: 100,
   duration: 1.5,
   scrollTrigger: {
     trigger: ".cloud_upper",
@@ -167,7 +167,7 @@ gsap.to(".cloud_lower", {
   },
 });
 gsap.to(".parallax_text", {
-  y: -400,
+  y: -480,
   duration: 1.5,
   scrollTrigger: {
     trigger: ".cloud_upper",
@@ -180,47 +180,46 @@ gsap.to(".parallax_text", {
 tl_repeat
   .to("#righteye", {
     morphSVG: "#righteye1",
-    duration: 0.5,
+    duration: 0.3,
   })
   .to("#lefteye", {
     morphSVG: "#lefteye1",
-    duration: 0.5,
-    delay: 0.5,
+    duration: 0.3,
+    delay: 0.2,
   })
   .to("#mouth", {
     morphSVG: "#mouth1",
-    duration: 0.5,
-    delay: 0.5,
+    duration: 0.3,
+    delay: 0.2,
   })
   .to("#righteye", {
     morphSVG: "#righteye2",
-    delay: 0.5,
-    duration: 0.5,
+    delay: 0.2,
+    duration: 0.3,
   })
   .to("#lefteye", {
     morphSVG: "#lefteye2",
-    delay: 0.5,
-    duration: 0.5,
+    delay: 0.2,
+    duration: 0.3,
   })
   .to("#mouth", {
     morphSVG: "#mouth2",
-    duration: 0.5,
-    delay: 0.5,
+    duration: 0.3,
+    delay: 0.2,
   })
   .to("#righteye", {
     morphSVG: "#righteye",
-    delay: 0.5,
-    duration: 0.5,
+    delay: 0.2,
+    duration: 0.3,
   })
   .to("#lefteye", {
     morphSVG: "#lefteye",
-    delay: 0.5,
-    duration: 0.5,
+    delay: 0.2,
+    duration: 0.3,
   })
   .to("#mouth", {
     morphSVG: "#mouth",
-    duration: 0.5,
-    delay: 0.5,
+    duration: 0.3,
   });
 
 gsap.to(".tiny_eclipse", {
@@ -260,7 +259,7 @@ gsap.to(".large_eclipse", {
   },
 });
 
-const particleCount = 200;
+const particleCount = 300;
 const particles = [];
 const container = document.querySelector(".particle_effect");
 
@@ -271,15 +270,15 @@ function getRandomPosition(min, max) {
 function animateParticles() {
   particles.forEach((particle) => {
     gsap.set(particle, {
-      x: getRandomPosition(0, container.offsetWidth),
-      y: getRandomPosition(0, container.offsetHeight),
+      x: getRandomPosition(-100, container.offsetWidth),
+      y: getRandomPosition(-100, container.offsetHeight),
     });
   });
 
   gsap.to(particles, {
-    duration: 4,
-    x: "random(-100, 1500)",
-    y: "random(-1000, 000)",
+    duration: 5,
+    x: "random(-100, 2000)",
+    y: "random(-1000, 0)",
     rotation: "random(-360, 360)",
     opacity: 0,
 
